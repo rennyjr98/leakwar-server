@@ -21,6 +21,8 @@ func main() {
 
 	http.Handle("/socket.io/", socket.CorsMiddleware(socket.Server))
 	http.Handle("/", http.FileServer(http.Dir("api/public")))
+	http.HandleFunc("/auth", api.GoogleAuth)
+	http.HandleFunc("/gphotos", api.GooglePhoto)
 	log.Println("Serving at 127.0.0.1:" + port + " ...")
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 }

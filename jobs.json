@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Albañil",
+        "economy": [2, 1]
+    },
+    {
+        "name": "PornStar",
+        "economy": [10, 6]
+    },
+    {
+        "name": "Astronauta",
+        "economy": [10, 3]
+    },
+    {
+        "name": "Banquero",
+        "economy": [2, 0]
+    },
+    {
+        "name": "Princesa Disney",
+        "economy": [5, 5]
+    },
+    {
+        "name": "Principe Encantador",
+        "economy": [0, 6]
+    },
+    {
+        "name": "Vagabundo",
+        "economy": [0, 3]
+    },
+    {
+        "name": "Chef",
+        "economy": [2, 1]
+    },
+    {
+        "name": "Empresario",
+        "economy": [5, 1]
+    },
+    {
+        "name": "Admin",
+        "economy": [10, 1]
+    }
+]

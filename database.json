@@ -1,0 +1,50 @@
+[
+    {
+        "name": "x3",
+        "description": "El jugador seleccionado por la ruleta mostrará 3 fotos en lugar de 1.",
+        "size": 3,
+        "turnEffect": 1,
+        "changePlayer": false,
+        "changeCard": false,
+        "isSlave": false,
+        "toBlock": false
+    },
+    {
+        "name": "Invisible",
+        "description": "Si fuiste seleccionado por la ruleta, evita mostrar contenido.",
+        "size": 0,
+        "turnEffect": 1,
+        "changePlayer": false,
+        "changeCard": false,
+        "isSlave": false,
+        "toBlock": false
+    },
+    {
+        "name": "Gorro seleccionador",
+        "description": "Intercambia turno si fuiste seleccionado por la ruleta por un jugador de tu elección.",
+        "size": 0,
+        "turnEffect": 1,
+        "changePlayer": true,
+        "changeCard": false,
+        "isSlave": false,
+        "toBlock": false
+    },
+    {
+        "name": "Bomba núclear",
+        "description": "Despoja a un jugador de tu elección de todas sus cartas.",
+        "size": 0,
+        "turnEffect": 1,
+        "changePlayer": false,
+        "changeCard": true,
+        "isSlave": false,
+        "toBlock": false
+    },
+    {
+        "name": "Teibolera privada",
+        "description": "Compra a cambio de esta carta a un jugador de tu elección para ver contenido exclusivo durante 3 turnos.",
+        "changePlayer": false,
+        "changeCard": false,
+        "isSlave": false,
+        "toBlock": false
+    }
+]
